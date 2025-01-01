@@ -1,0 +1,35 @@
+.logo{
+  height: 8vh;
+  width: 75%;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.obj{
+  object-fit: contain;
+}
+.heiz{
+  height: 90vh;
+}
+.objc{
+  object-fit: cover;
+}
+.hei{
+  height: 170vh;
+}
+.border{
+  border: solid 10px blue;
+}
+
+@media (max-width:932px)
+{
+  .logo{
+    height : 25vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+}
